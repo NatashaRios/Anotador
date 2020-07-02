@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  font-family: sans-serif;
+  background-color: #fae3d9;
+  height: 100vh;
+}
+.wrapper .container {
+  width: 50rem;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper .container {
+    width: 40rem;
+  }
+}
+@media screen and (max-width: 468px) {
+  .wrapper .container {
+    width: 15rem;
+  }
+}
+.wrapper .container .title {
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #584153;
+}
+@media screen and (max-width: 468px) {
+  .wrapper .container .title {
+    padding-top: 1rem;
+  }
+}
+.wrapper .container .box {
+  display: flex;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper .container .box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.wrapper .container .box .anotar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5rem;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper .container .box .anotar {
+    margin-bottom: 5rem;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 468px) {
+  .wrapper .container .box .anotar {
+    margin-bottom: 3rem;
+  }
+}
+.wrapper .container .box .anotar .title-anotar {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #584153;
+  font-size: 1em;
+  font-weight: 600;
+}
+.wrapper .container .box .anotar .text-anotar {
+  width: 100%;
+  height: 5rem;
+  border-radius: 10px;
+  border: 2px solid #ffcac2;
+  background-color: #ffe3ed;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  color: #6c7b95;
+  font-size: 1em;
+}
+.wrapper .container .box .anotar .add {
+  background-color: #ffe3ed;
+  border-radius: 8px;
+  border: 2px solid #ffcac2;
+  height: 2rem;
+  width: 100%;
+  color: #6c7b95;
+  font-weight: 600;
+  font-size: 1em;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper .container .box .anotar .add {
+    height: 3rem;
+  }
+}
+@media screen and (max-width: 468px) {
+  .wrapper .container .box .anotar .add {
+    height: 1.5rem;
+    margin-top: -0.5rem;
+  }
+}
+.wrapper .container .box .anotado {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  width: 100%;
+}
+@media screen and (max-width: 468px) {
+  .wrapper .container .box .anotado {
+    margin-left: 0;
+  }
+}
+.wrapper .container .box .anotado .title-anotado {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #584153;
+  font-size: 1em;
+  font-weight: 600;
+}
+.wrapper .container .box .anotado .text-anotado {
+  width: 100%;
+  height: 25rem;
+  border-radius: 10px;
+  border: 2px solid #ffcac2;
+  background-color: #ffe3ed;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper .container .box .anotado .text-anotado {
+    height: 40rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper .container .box .anotado .text-anotado {
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 468px) {
+  .wrapper .container .box .anotado .text-anotado {
+    height: 20rem;
+  }
+}
+.wrapper .container .box .anotado .text-anotado .list {
+  color: #6c7b95;
+  font-size: 1em;
+  margin-top: 0.5rem;
+  line-height: 1.3rem;
+}
+.wrapper .container .box .anotado .text-anotado .borrar-anotacion {
+  font-size: 1em;
+  float: right;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.wrapper .container .box .anotado .delete {
+  background-color: #ffe3ed;
+  border-radius: 8px;
+  border: 2px solid #ffcac2;
+  height: 2rem;
+  width: 100%;
+  color: #6c7b95;
+  font-weight: 600;
+  font-size: 1em;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper .container .box .anotado .delete {
+    height: 3rem;
+  }
+}
+@media screen and (max-width: 468px) {
+  .wrapper .container .box .anotado .delete {
+    height: 1.5rem;
+    margin-top: -0.5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    font-size: 200%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    font-size: 150%;
+  }
+}
+@media screen and (max-width: 468px) {
+  .wrapper {
+    font-size: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

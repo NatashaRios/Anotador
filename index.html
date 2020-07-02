@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anotador</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <div class="wrapper"> 
+  
+    <div class="container"> 
+    
+      <h1 class="title">Anotador</h1>
+      
+      <div class="box">
+        
+        <form class="anotar js-anotar">
+          <span class="title-anotar">¿Qué queres anotar?</span>
+          <textarea class="text-anotar js-text-anotar" name="text-anotar" placeholder="Escribí acá lo que quieras anotar"></textarea>
+          <input type="submit" class="add js-add" value="Agregar">
+        </form> <!-- anotar -->
+  
+        <div class="anotado">
+          <span class="title-anotado">Mis anotaciones</span>
+          <div class="text-anotado js-text-anotado"><ul class="list js-list"></ul></div>
+          <button class="delete js-delete">Borrar todo</button>
+        </div> <!-- annotated -->
+      </div> <!-- box -->
+    </div> <!-- container -->
+    
+  </div> <!-- wrapper -->
+  
+  <script src="index.js"></script>
+</body>
+</html>
