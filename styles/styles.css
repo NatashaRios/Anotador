@@ -9,6 +9,7 @@
 }
 .wrapper .container {
   width: 50rem;
+  height: auto;
   margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
@@ -139,7 +140,7 @@
 }
 @media screen and (max-width: 468px) {
   .wrapper .container .box .anotado .text-anotado {
-    height: 20rem;
+    height: 15rem;
   }
 }
 .wrapper .container .box .anotado .text-anotado .list {
@@ -177,7 +178,7 @@
 }
 @media screen and (max-width: 1024px) {
   .wrapper {
-    font-size: 200%;
+    font-size: 120%;
   }
 }
 @media screen and (max-width: 768px) {
