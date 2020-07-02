@@ -147,7 +147,7 @@
   color: #6c7b95;
   font-size: 1em;
   margin-top: 0.5rem;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
 }
 .wrapper .container .box .anotado .text-anotado .borrar-anotacion {
   font-size: 1em;
@@ -179,11 +179,6 @@
 @media screen and (max-width: 1024px) {
   .wrapper {
     font-size: 120%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .wrapper {
-    font-size: 150%;
   }
 }
 @media screen and (max-width: 468px) {

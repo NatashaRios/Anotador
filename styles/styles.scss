@@ -146,7 +146,7 @@ $mobile: 468px;
             color: $pallete3;
             font-size: 1em;
             margin-top: 0.5rem;
-            line-height: 1.3rem; 
+            line-height: 1.5rem; 
           }
           
           .borrar-anotacion {
@@ -183,9 +183,6 @@ $mobile: 468px;
   @media screen and (max-width: $ipadpro){
     font-size: 120%;  
   } 
-  @media screen and (max-width: $ipad){
-    font-size: 150%;
-  }
   @media screen and (max-width: $mobile){
     font-size: 100%;
   }
