@@ -26,20 +26,24 @@ function agregar(e) {
   e.preventDefault();
   
   let text = textAnotar.value;
-  //crear elementos y agregarlos a mis anotaciones
-  const li = document.createElement("li");
-  list.appendChild(li);
-  li.innerText = text; 
-  textAnotar.value = "";
-  
-  //crear x para borrar
-  const cruz = document.createElement("a");
-  cruz.innerText = "x";
-  cruz.classList = "borrar-anotacion";
-  li.appendChild(cruz);
-  
-  //agregar local storage
-  agregarLocalStorage(text);
+  if(text == "") {
+    return;
+  } else {
+    //crear elementos y agregarlos a mis anotaciones
+    const li = document.createElement("li");
+    list.appendChild(li);
+    li.innerText = text; 
+    textAnotar.value = "";
+    
+    //crear x para borrar
+    const cruz = document.createElement("a");
+    cruz.innerText = "x";
+    cruz.classList = "borrar-anotacion";
+    li.appendChild(cruz);
+    
+    //agregar local storage
+    agregarLocalStorage(text);
+  }
  }
 
 //borra la anotación elegida con la cruz
