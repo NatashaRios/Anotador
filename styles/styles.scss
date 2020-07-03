@@ -6,6 +6,7 @@ $pallete1: #584153; //violeta oscuro para títulos
 $pallete2: #ffe3ed; //rosa claro para fondo
 $pallete3: #6c7b95; //para escribir
 $pallete4: #ffcac2; //rosa para border
+$pallete5: rgb(238, 235, 235); //fondo de add y delete
 $ipadpro: 1024px;
 $ipad: 768px;
 $mobile: 468px;
@@ -86,7 +87,7 @@ $mobile: 468px;
         }
         
         .add {
-          background-color: $pallete2;
+          background-color: $pallete5;
           border-radius: 8px;
           border: 2px solid $pallete4;
           height: 2rem;
@@ -158,7 +159,7 @@ $mobile: 468px;
         }
         
         .delete {
-          background-color: $pallete2;
+          background-color: $pallete5;
           border-radius: 8px;
           border: 2px solid $pallete4;
           height: 2rem;

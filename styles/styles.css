@@ -81,7 +81,7 @@
   font-size: 1em;
 }
 .wrapper .container .box .anotar .add {
-  background-color: #ffe3ed;
+  background-color: #eeebeb;
   border-radius: 8px;
   border: 2px solid #ffcac2;
   height: 2rem;
@@ -156,7 +156,7 @@
   margin-right: 0.5rem;
 }
 .wrapper .container .box .anotado .delete {
-  background-color: #ffe3ed;
+  background-color: #eeebeb;
   border-radius: 8px;
   border: 2px solid #ffcac2;
   height: 2rem;
