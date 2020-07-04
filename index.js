@@ -1,5 +1,6 @@
 //variables
 const textAnotado = document.querySelector(".js-text-anotado");
+const add = document.querySelector(".js-add");
 const anotar = document.querySelector(".js-anotar");
 const borrarTodo = document.querySelector(".js-delete");
 const list = document.querySelector(".js-list");
@@ -7,8 +8,13 @@ const textAnotar = document.querySelector(".js-text-anotar");
 
  eventListener();
 function eventListener() {
-  //cuando se envia el formulario
-  anotar.addEventListener("submit", agregar);
+  //cuando se envia al anotado
+  add.addEventListener("click", agregar);
+  anotar.addEventListener("keyup", function(e){
+    if(e.keyCode == 13) {
+      return agregar(e);
+    }
+  })
   
   //borrar con la cruz
   textAnotado.addEventListener("click", borrarAnotacion);
