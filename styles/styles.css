@@ -79,6 +79,11 @@
   color: #6c7b95;
   font-size: 1em;
 }
+@media screen and (max-width: 468px) {
+  .wrapper .container .box .anotar .text-anotar {
+    font-size: 0.7em;
+  }
+}
 .wrapper .container .box .anotar .add {
   background-color: #eeebeb;
   border-radius: 8px;
@@ -139,7 +144,7 @@
 }
 @media screen and (max-width: 468px) {
   .wrapper .container .box .anotado .text-anotado {
-    height: 15rem;
+    height: 20rem;
   }
 }
 .wrapper .container .box .anotado .text-anotado .list {
@@ -173,16 +178,6 @@
   .wrapper .container .box .anotado .delete {
     height: 1.5rem;
     margin-top: -0.5rem;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .wrapper {
-    font-size: 120%;
-  }
-}
-@media screen and (max-width: 468px) {
-  .wrapper {
-    font-size: 100%;
   }
 }
 

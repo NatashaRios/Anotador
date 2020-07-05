@@ -83,6 +83,10 @@ $mobile: 468px;
           padding-left: 1rem;
           color: $pallete3;
           font-size: 1em;
+
+          @media screen and (max-width: $mobile) {
+            font-size: 0.7em;
+          }
         }
         
         .add {
@@ -139,7 +143,7 @@ $mobile: 468px;
             height: 30rem;
           }
           @media screen and (max-width: $mobile){
-            height: 15rem;
+            height: 20rem;
           }
           
           .list {
@@ -180,10 +184,5 @@ $mobile: 468px;
     }//box
   } //container
 
-  @media screen and (max-width: $ipadpro){
-    font-size: 120%;  
-  } 
-  @media screen and (max-width: $mobile){
-    font-size: 100%;
-  }
+  
 } //wrapper
